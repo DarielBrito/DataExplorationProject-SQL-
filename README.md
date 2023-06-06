@@ -1,17 +1,7 @@
-# DataExplorationProject-SQL-
+# DataExplorationProject(SQL)
 
-This project involves the exploration of COVID-19 data using various SQL techniques and functions. The code performs several analyses and calculations on the COVID-19 data, including:
+This project involves the exploration of COVID-19 data using various SQL techniques and functions. The code performs several analyses and calculations on the COVID-19 data.
 
-    Retrieving data related to COVID-19 deaths, filtering out records without a continent specified.
-    Examining the total cases and total deaths, calculating the percentage of deaths based on the total cases for the United States.
-    Analyzing the percentage of the population infected with COVID-19 for each location.
-    Identifying countries with the highest infection rate compared to their population.
-    Determining countries with the highest death count per population.
-    Breaking down the data by continent and finding continents with the highest death count per population.
-    Summarizing global numbers, including the total cases, total deaths, and death percentage.
-    Analyzing the percentage of the population that has received at least one COVID-19 vaccine by location and date, considering population and new vaccinations data.
-    Using common table expressions (CTEs) to perform calculations on the partitioned data from the previous query.
-    Utilizing a temporary table to perform calculations on the partitioned data from the previous query.
-    Creating a view named "PercentPopulationVaccinated" to store data for later visualizations.
+Analyzes COVID-19 data by examining deaths, total cases, population statistics, and vaccination progress. It filters out records without a specified continent and calculates death percentages for the United States. It also determines infection rates and death counts per population for countries and continents. The project summarizes global COVID-19 numbers and utilizes CTEs, temporary tables, and a view named "PercentPopulationVaccinated" for data analysis and visualization.
 
 Overall, the code explores various aspects of COVID-19 data, such as death rates, infection rates, and vaccination progress, using SQL techniques and functions.
